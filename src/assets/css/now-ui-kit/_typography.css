@@ -1,0 +1,130 @@
+/*     brand Colors              */
+/*      light colors         */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400; }
+
+small {
+  font-size: 60%; }
+
+a {
+  color: #f96332; }
+  a:hover, a:focus {
+    color: #f96332; }
+
+h1, .h1 {
+  font-size: 3.5em;
+  line-height: 1.15;
+  margin-bottom: 30px; }
+  h1 small, .h1 small {
+    font-weight: 700;
+    text-transform: uppercase;
+    opacity: .8; }
+
+h2, .h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px; }
+
+h3, .h3 {
+  font-size: 1.825em;
+  margin-bottom: 30px;
+  line-height: 1.4em; }
+
+h4, .h4 {
+  font-size: 1.5em;
+  line-height: 1.45em;
+  margin-top: 30px;
+  margin-bottom: 15px; }
+  h4 + .category,
+  h4.title + .category, .h4 + .category,
+  .h4.title + .category {
+    margin-top: -5px; }
+
+h5, .h5 {
+  font-size: 1.3em;
+  line-height: 1.4em;
+  margin-bottom: 15px; }
+  h5.category, .h5.category {
+    font-weight: 400; }
+
+h6, .h6 {
+  font-size: 0.9em;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+p {
+  line-height: 1.61em;
+  font-weight: 400;
+  font-size: 4.2em; }
+
+.title {
+  font-weight: 700;
+  padding-top: 30px; }
+  .title.title-up {
+    text-transform: uppercase; }
+    .title.title-up a {
+      color: #2c2c2c;
+      text-decoration: none; }
+  .title + .category {
+    margin-top: -25px; }
+
+.description,
+.card-description,
+.footer-big p {
+  color: #9A9A9A;
+  font-weight: 300; }
+
+.category {
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #9A9A9A; }
+
+.text-primary {
+  color: #f96332 !important; }
+
+.text-info {
+  color: #2CA8FF !important; }
+
+.text-success {
+  color: #18ce0f !important; }
+
+.text-warning {
+  color: #FFB236 !important; }
+
+.text-danger {
+  color: #FF3636 !important; }
+
+.text-black {
+  color: #444; }
+
+.blockquote {
+  border-left: none;
+  border: 1px solid #888888;
+  padding: 20px;
+  font-size: 1.1em;
+  line-height: 1.8; }
+  .blockquote small {
+    color: #888888;
+    font-size: 0.8571em;
+    text-transform: uppercase; }
+  .blockquote.blockquote-primary {
+    border-color: #f96332;
+    color: #f96332; }
+    .blockquote.blockquote-primary small {
+      color: #f96332; }
+  .blockquote.blockquote-danger {
+    border-color: #FF3636;
+    color: #FF3636; }
+    .blockquote.blockquote-danger small {
+      color: #FF3636; }
+  .blockquote.blockquote-white {
+    border-color: rgba(255, 255, 255, 0.8);
+    color: #FFFFFF; }
+    .blockquote.blockquote-white small {
+      color: rgba(255, 255, 255, 0.8); }
