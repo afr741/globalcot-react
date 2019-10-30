@@ -1,3 +1,4 @@
+@import "./_variables";
 .navbar{
     padding-top: $navbar-padding-base;
     padding-bottom: $navbar-padding-base;
@@ -15,10 +16,10 @@
 
     p{
         display: inline-block;
-        margin: 0;
-        line-height: 21px;
+        margin: 5px;
+        line-height: 31px;
         font-weight: inherit;
-        font-size: inherit;
+        font-size: 15px;
     }
 
     .navbar-nav{
@@ -101,11 +102,16 @@
 
     .navbar-brand{
         text-transform: uppercase;
-        font-size: $font-size-small;
+        border-style: solid;
+        border-width: 1px;
+        padding: 5px;
+
+        font-size: $font-size-base;
         padding-top: $padding-base-vertical;
         padding-bottom: $padding-base-vertical;
         line-height: $line-height-nav-link;
     }
+
 
     .navbar-toggler{
         width: 37px;

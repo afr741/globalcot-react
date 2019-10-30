@@ -833,7 +833,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   -moz-border-radius: 4px;
   border-radius: 50%;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
   border: none;
   z-index: 1;
   position: relative;
@@ -1100,7 +1100,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   line-height: 41px;
   float: left;
   margin: 1%;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1895,7 +1895,7 @@ fieldset[disabled]
     padding: 14px 47px; }
 
 .btn-sm {
-  font-size: 14px;
+  font-size: 16px;
   border-radius: 0.1875rem;
   padding: 5px 15px; }
   .btn-sm[class*="btn-outline-"] {
@@ -2004,7 +2004,7 @@ fieldset[disabled]
       background-color: #FFFFFF; }
   .form-control + .form-control-feedback {
     border-radius: 0.25rem;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: -7px;
     position: absolute;
     right: 10px;
@@ -2507,7 +2507,7 @@ textarea.form-control {
   line-height: 30px;
   color: #2c2c2c;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
   background: transparent; }
   .pagination .page-item .page-link:hover, .pagination .page-item .page-link:focus {
@@ -2640,8 +2640,8 @@ h6, .h6 {
 
 p {
   line-height: 1.61em;
-  font-weight: 400;
-  font-size: 4.2em; }
+  font-weight: 300;
+  font-size: 1.2em; }
 
 .title {
   font-weight: 700;
@@ -2711,7 +2711,7 @@ p {
 
 body {
   color: #2c2c2c;
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
   overflow-x: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3300,7 +3300,7 @@ Created using IcoMoon - icomoon.io
     background-color: transparent;
     border: 1px solid transparent;
     border-radius: 30px;
-    font-size: 14px;
+    font-size: 16px;
     padding: 11px 23px;
     line-height: 1.5; }
     .nav-tabs > .nav-item > .nav-link:hover {
@@ -3333,6 +3333,8 @@ Created using IcoMoon - icomoon.io
   .nav-tabs.nav-tabs-success > .nav-item > .nav-link.active {
     background-color: #18ce0f; }
 
+/*     brand Colors              */
+/*      light colors         */
 .navbar {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
@@ -3346,10 +3348,10 @@ Created using IcoMoon - icomoon.io
       color: #FFFFFF; }
   .navbar p {
     display: inline-block;
-    margin: 0;
-    line-height: 21px;
+    margin: 5px;
+    line-height: 31px;
     font-weight: inherit;
-    font-size: inherit; }
+    font-size: 15px; }
   .navbar .navbar-nav.navbar-logo {
     position: absolute;
     left: 0;
@@ -3402,7 +3404,10 @@ Created using IcoMoon - icomoon.io
     border: 1px solid transparent; }
   .navbar .navbar-brand {
     text-transform: uppercase;
-    font-size: 0.8571em;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    font-size: 16px;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     line-height: 1.625rem; }
@@ -3476,7 +3481,7 @@ Created using IcoMoon - icomoon.io
   -o-transition: all 150ms linear;
   -ms-transition: all 150ms linear;
   transition: all 150ms linear;
-  font-size: 14px; }
+  font-size: 16px; }
   .dropdown-menu.dropdown-menu-right:before {
     left: auto;
     right: 10px; }
@@ -3666,7 +3671,7 @@ img {
   box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3); }
 
 .popover {
-  font-size: 14px;
+  font-size: 16px;
   -webkit-box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.2);
   border: none;
@@ -3682,7 +3687,7 @@ img {
     border-bottom-color: transparent; }
   .popover .popover-header {
     color: rgba(182, 182, 182, 0.6);
-    font-size: 14px;
+    font-size: 16px;
     text-transform: capitalize;
     font-weight: 600;
     margin: 0;
@@ -3786,7 +3791,7 @@ img {
   padding: 0.5rem 0.7rem;
   min-width: 130px;
   background-color: #FFFFFF;
-  font-size: 14px;
+  font-size: 16px;
   color: inherit;
   -webkit-box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2); }
@@ -4321,6 +4326,8 @@ img {
   color: #FFFFFF;
   text-decoration: none; }
 
+/*     brand Colors              */
+/*      light colors         */
 .section {
   padding: 70px 0;
   position: relative;
@@ -4344,7 +4351,7 @@ img {
   color: #FFFFFF;
   position: relative;
   overflow: hidden; }
-  .page-header > .content {
+  .page-header.ent {
     margin-top: 12%;
     text-align: center;
     margin-bottom: 50px; }
@@ -4369,6 +4376,9 @@ img {
     top: 50%;
     left: 50%;
     z-index: 2;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
     -ms-transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -4401,21 +4411,6 @@ img {
 
 .clear-filter:after, .clear-filter:before {
   display: none; }
-
-.clear-filter[filter-color="orange"] {
-  background: rgba(44, 44, 44, 0.2);
-  /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
-  /* For Firefox 3.6 to 15 */
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(44, 44, 44, 0.2)), to(rgba(224, 23, 3, 0.6)));
-  background: -webkit-linear-gradient(bottom, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
-  background: -o-linear-gradient(bottom, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
-  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
-  /* Standard syntax */ }
 
 .section-story-overview {
   padding: 50px 0; }

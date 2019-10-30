@@ -1,3 +1,5 @@
+@import "./_variables.scss";
+
 .section{
     padding: 70px 0;
     position: relative;
@@ -26,7 +28,7 @@
   position: relative;
   overflow: hidden;
 
-  & > .content{
+  &.ent{
     margin-top: 12%;
     text-align: center;
     margin-bottom: 50px;
@@ -61,6 +63,9 @@
       top: 50%;
       left: 50%;
       z-index: 2;
+      border-style: solid;
+  border-width: 1px;
+  background-color: rgba(0, 0, 0, 0.5);
       -ms-transform: translate(-50%, -50%);
       -webkit-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
@@ -108,9 +113,7 @@
         display: none;
     }
 
-    &[filter-color="orange"]{
-        @include linear-gradient(rgba($black-color,.20), rgba(224, 23, 3, 0.6));
-    }
+
 }
 
 .section-story-overview{
@@ -327,7 +330,7 @@
 
     h1,h2,h3,h4,h5,h6,a:not(.btn):not(.dropdown-item),
     .icons-container{
-      color: $white-color;
+      color: $white-color;  
     }
 
     .input-group-text,

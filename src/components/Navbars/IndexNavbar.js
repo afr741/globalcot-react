@@ -61,9 +61,7 @@ function IndexNavbar() {
             >
               GLOBALCOT
             </NavbarBrand>
-            <UncontrolledTooltip target="#navbar-brand">
-              Designed by Invision. Coded by Anush
-            </UncontrolledTooltip>
+          
             <button
               className="navbar-toggler navbar-toggler"
               onClick={() => {

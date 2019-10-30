@@ -19,18 +19,13 @@ const items = [
     caption: "Dushanbe, Tajikistan"
   },
   {
-    src: require("assets/img/dubai.jpg"),
-    altText: "Dubai, UAE",
-    caption: "Dubai, UAE"
-  },
-  {
-    src: require("assets/img/moscow.jpg"),
-    altText: "Moscow, Russia",
-    caption: "Moscow, Russia"
+    src: require("assets/img/tashkent.jpg"),
+    altText: "Tashkent, Uzbekistan",
+    caption: "Tashkent, Uzbekistan"
   }
 ];
 
-function CarouselSection() {
+function CarouselSection1() {
   const [activeIndex, setActiveIndex] = React.useState(0);
   const [animating, setAnimating] = React.useState(false);
   const onExiting = () => {
@@ -58,7 +53,7 @@ function CarouselSection() {
       <div className="section" id="carousel">
         <Container>
           <div className="title">
-            <h4>Head Offices</h4>
+            <h4>Purchase Offices</h4>
           </div>
           <Row className="justify-content-center">
             <Col lg="8" md="12">
@@ -121,15 +116,9 @@ function CarouselSection() {
 
 
 
-
-
-
-
-
-
       </div>
     </>
   );
 }
 
-export default CarouselSection;
+export default CarouselSection1;
