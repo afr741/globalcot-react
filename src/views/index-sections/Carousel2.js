@@ -13,20 +13,11 @@ import {
 // core components
 
 const items = [
+
   {
-    src: require("assets/img/dubai.jpg"),
-    altText: "Dubai, UAE",
-    caption: "Dubai, UAE"
-  },
-  {
-    src: require("assets/img/moscow.jpg"),
-    altText: "Moscow, Russia",
-    caption: "Moscow, Russia"
-  },
-  {
-    src: require("assets/img/cyprus.jpg"),
-    altText: "Nicosia, Cyprus",
-    caption: "Nicosia, Cyprus"
+    src: require("assets/img/tashkent.jpg"),
+    altText: "Tashkent, Uzbekistan",
+    caption: "Tashkent, Uzbekistan"
   }
 ];
 
@@ -58,7 +49,7 @@ function CarouselSection2() {
       <div className="section" id="carousel">
         <Container>
           <div className="title">
-            <h4>International Offices</h4>
+            <h4>Purchase Offices</h4>
           </div>
           <Row className="justify-content-center">
             <Col lg="8" md="12">

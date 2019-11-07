@@ -13,11 +13,19 @@ import {
 } from "reactstrap";
 
 // core components
-import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import BasicElements from "../index-sections/BasicElements.js"
+
+
 function LandingPage() {
   const [firstFocus, setFirstFocus] = React.useState(false);
   const [lastFocus, setLastFocus] = React.useState(false);
+  const [name, setName] = React.useState('');
+  const [email, setEmail] = React.useState('');
+  const [message, setMessage] = React.useState( '');
+
+
+
+
   React.useEffect(() => {
     document.body.classList.add("landing-page");
     document.body.classList.add("sidebar-collapse");
@@ -26,7 +34,31 @@ function LandingPage() {
       document.body.classList.remove("landing-page");
       document.body.classList.remove("sidebar-collapse");
     };
+
   });
+
+
+  function sendFeedback (templateId, variables) {
+	window.emailjs.send(
+  	'shaunvoner_gmail_com',templateId,variables
+  	).then(res => {
+    	console.log('Email successfully sent!')
+  	})
+  	// Handle errors here however you like, or use a React error boundary
+  	.catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
+  }
+
+
+
+  function  handleSubmit (event) {
+	   const templateId = 'template_rlmA2HvN';
+	   sendFeedback(templateId, {message_html: message, from_name: name, reply_to: email});
+     alert('Thank you! The message has been emailed!');
+  }
+
+
+
+
   return (
     <>
 
@@ -118,6 +150,7 @@ Worldwide Globalcot has more than 100 employees. All these people have the same 
                     type="text"
                     onFocus={() => setFirstFocus(true)}
                     onBlur={() => setFirstFocus(false)}
+                    onChange = {e => setName(e.target.value) }
                   ></Input>
                 </InputGroup>
                 <InputGroup
@@ -135,6 +168,7 @@ Worldwide Globalcot has more than 100 employees. All these people have the same 
                     type="text"
                     onFocus={() => setLastFocus(true)}
                     onBlur={() => setLastFocus(false)}
+                    onChange = {e=>setEmail(e.target.value)}
                   ></Input>
                 </InputGroup>
                 <div className="textarea-container">
@@ -143,6 +177,7 @@ Worldwide Globalcot has more than 100 employees. All these people have the same 
                     name="name"
                     placeholder="Type a message..."
                     rows="4"
+                    onChange = {e=>setMessage(e.target.value)}
                     type="textarea"
                   ></Input>
                 </div>
@@ -152,7 +187,7 @@ Worldwide Globalcot has more than 100 employees. All these people have the same 
                     className="btn-round"
                     color="info"
                     href="#pablo"
-                    onClick={e => e.preventDefault()}
+                    onClick={handleSubmit}
                     size="lg"
                   >
                     Send Message

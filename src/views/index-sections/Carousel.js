@@ -13,20 +13,11 @@ import {
 // core components
 
 const items = [
-  {
-    src: require("assets/img/dushanbe.jpg"),
-    altText: "Dushanbe, Tajikistan",
-    caption: "Dushanbe, Tajikistan"
-  },
+
   {
     src: require("assets/img/dubai.jpg"),
     altText: "Dubai, UAE",
     caption: "Dubai, UAE"
-  },
-  {
-    src: require("assets/img/moscow.jpg"),
-    altText: "Moscow, Russia",
-    caption: "Moscow, Russia"
   }
 ];
 

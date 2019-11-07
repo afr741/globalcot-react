@@ -14,14 +14,9 @@ import {
 
 const items = [
   {
-    src: require("assets/img/dushanbe.jpg"),
-    altText: "Dushanbe, Tajikistan",
-    caption: "Dushanbe, Tajikistan"
-  },
-  {
-    src: require("assets/img/tashkent.jpg"),
-    altText: "Tashkent, Uzbekistan",
-    caption: "Tashkent, Uzbekistan"
+    src: require("assets/img/moscow.jpg"),
+    altText: "Moscow, Russia",
+    caption: "Moscow, Russia"
   }
 ];
 
@@ -53,7 +48,7 @@ function CarouselSection1() {
       <div className="section" id="carousel">
         <Container>
           <div className="title">
-            <h4>Purchase Offices</h4>
+            <h4>Sales Offices</h4>
           </div>
           <Row className="justify-content-center">
             <Col lg="8" md="12">

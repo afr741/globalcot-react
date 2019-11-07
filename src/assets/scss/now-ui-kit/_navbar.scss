@@ -103,10 +103,11 @@
     .navbar-brand{
         text-transform: uppercase;
         border-style: solid;
-        border-width: 1px;
-        padding: 5px;
+        border-width: 4px;
+        padding: 15px;
 
         font-size: $font-size-base;
+        font-weight: bolder;
         padding-top: $padding-base-vertical;
         padding-bottom: $padding-base-vertical;
         line-height: $line-height-nav-link;

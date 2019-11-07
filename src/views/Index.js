@@ -8,11 +8,7 @@ import React from "react";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
-import IndexResources from "components/Headers/IndexResources.js";
 // sections for this page
-import Images from "./index-sections/Images.js";
-import BasicElements from "./index-sections/BasicElements.js";
-import Navbars from "./index-sections/Navbars.js";
 import Tabs from "./index-sections/Tabs.js";
 import LandingPage from "./examples/LandingPage.js";
 function Index() {

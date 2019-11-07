@@ -1,14 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 
 // reactstrap components
 import {
-  Button,
   Collapse,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  UncontrolledDropdown,
   NavbarBrand,
   Navbar,
   NavItem,
@@ -59,9 +54,9 @@ function IndexNavbar() {
               target="_blank"
               id="navbar-brand"
             >
-              GLOBALCOT
+              GC
             </NavbarBrand>
-          
+
             <button
               className="navbar-toggler navbar-toggler"
               onClick={() => {

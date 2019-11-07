@@ -39,10 +39,10 @@ function IndexHeader() {
               className="n-logo"
               src={require("assets/img/now-logo.png")}
             ></img>
-            <h1 className="h1-seo">GLOBALCOT</h1>
+            <h1>GLOBALCOT</h1>
             <h3>The activity of the Company is widely extended all over the world. We have active positions in all the cotton regions of Central Asia. Our activity is expressed through active trade, storing, financing of cotton farms and processing of seed cotton.</h3>
           </div>
-          
+
         </Container>
       </div>
     </>
