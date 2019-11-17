@@ -1,1 +1,1 @@
-Desined by Invision, Coded by Anushervon Rakhmatov
+Developed by Anushervon Rakhmatov for GLobalcot Ltd Central Asia
