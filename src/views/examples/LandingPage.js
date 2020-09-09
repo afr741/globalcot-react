@@ -115,7 +115,7 @@ function LandingPage() {
                   </p>
                   <h3>Logistics</h3>
                   <p>
-                    Globalcot is a multi sector Company which in general supports agriculture, realty and media business. Our Company is established relatively not long ago. At present Globalcot has Representative Offices in several countries, 30 Agencies and numerous partners. Globalcot is medium-sized Company which has its own capital.
+                    Globalcot is a multi sector Company which in general supports agriculture, realty and media business. Our Company is established relatively not long ago. At the present, Globalcot has 30 partners-agencies all over the world, which are formally independent companies.
                   </p>
                 </Col>
               </Row>

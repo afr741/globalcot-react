@@ -14,9 +14,9 @@ import {
 
 const items = [
   {
-    src: require("assets/img/dushanbe.jpg"),
-    altText: "Dushanbe, Tajikistan",
-    caption: "Dushanbe, Tajikistan"
+    src: require("assets/img/tashkent.jpg"),
+    altText: "Tashkent, Uzbekistan",
+    caption: "Tashkent, Uzbekistan"
   }
 ];
 
