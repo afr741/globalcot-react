@@ -79,7 +79,7 @@ function Tabs() {
                   >
                     <TabPane tabId="iconPills1">
                       <p>
-                        The Company has a capacity for storing about 10 thousand tons of cotton fiber, each year we sale approximately 30-40 thousand tons of cotton fiber.
+                        The Company has a capacity for storing about 10 thousand tons of cotton fiber, each year we sell approximately 12 thousand tons of cotton fiber.
                       </p>
                     </TabPane>
                     <TabPane tabId="iconPills2">
