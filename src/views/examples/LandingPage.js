@@ -69,7 +69,7 @@ function LandingPage() {
               <Col className="ml-auto mr-auto text-center" md="8">
                 <h2 className="title">Resources</h2>
                 <h5 className="description">
-Worldwide Globalcot has more than 100 employees. All these people have the same goal which is satisfaction of the Customers.                </h5>
+                Worldwide Globalcot has team members operating on the international level. All these people have the same goal - satisfaction of the customers.     </h5>
               </Col>
             </Row>
             <div className="separator separator-primary"></div>
@@ -108,16 +108,14 @@ Worldwide Globalcot has more than 100 employees. All these people have the same 
 
 
                   <p>
-                    For the better servicing to the Customers we uninterruptedly developing more efficient ways of reaching them. From our branches we coordinate marketing in China, Russia , Turkey , Pakistan and EU countries. The world is moving forth and free trade has greater emphasize over the trade controlled by centralized governmental agencies. We will help our public and privet sector partners in adjusting to changes.
+                    For the better servicing to the Customers we uninterruptedly developing more efficient ways of reaching them. From our branches we coordinate marketing in China, India, Pakistan, Bangladesh and some EU countries. The world is moving forth and free trade has greater emphasize over the trade controlled by centralized governmental agencies. We will help our public and privet sector partners in adjusting to changes.
                   </p>
                   <p>
                     Globalcot Company offers complete chain of support in finance, logistics, risk management, quality assurance and etc. We save the money of our customers through use of modern financing structures and risk management plans which are unavailable in traditional banking.
                   </p>
                   <h3>Logistics</h3>
                   <p>
-                    Globalcot is a multi sector Company which in general supports agriculture, realty and media business. Our Company is established relatively not long ago. At present Globalcot has 4 (four) Representative Offices and 30
-
-(thirty) Agencies. Globalcot is medium sized Company which has its own capital.
+                    Globalcot is a multi sector Company which in general supports agriculture, realty and media business. Our Company is established relatively not long ago. At present Globalcot has Representative Offices in several countries, 30 Agencies and numerous partners. Globalcot is medium-sized Company which has its own capital.
                   </p>
                 </Col>
               </Row>
