@@ -40,7 +40,7 @@ function LandingPage() {
 
   function sendFeedback (templateId, variables) {
 	window.emailjs.send(
-  	'shaunvoner_gmail_com',templateId,variables
+  	'service_e1uh1ef',templateId,variables
   	).then(res => {
     	console.log('Email successfully sent!')
   	})
@@ -52,7 +52,7 @@ function LandingPage() {
 
   function  handleSubmit (event) {
 	   const templateId = 'template_rlmA2HvN';
-	   sendFeedback(templateId, {message_html: message, from_name: name, reply_to: email});
+	   sendFeedback(templateId, {message_html: `${message}; Sent from: ${email}`, from_name: name, reply_to: email});
      alert('Thank you! The message has been emailed!');
   }
 
