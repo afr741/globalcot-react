@@ -165,7 +165,7 @@ function IndexNavbar() {
                   Like us on Facebook
                 </UncontrolledTooltip>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <NavLink
                   href="https://www.instagram.com"
                   target="_blank"
@@ -177,7 +177,7 @@ function IndexNavbar() {
                 <UncontrolledTooltip target="#instagram-tooltip">
                   Follow us on Instagram
                 </UncontrolledTooltip>
-              </NavItem>
+              </NavItem> */}
             </Nav>
           </Collapse>
         </Container>
